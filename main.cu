@@ -74,14 +74,9 @@ int main(int argc, char* argv[])
     printf("Time to Calculate: %f s\n\n", calc_time);
     
     
-    /* Simple CUDA ----------------------------------------------------------*/
+    /* CUDA Implementation----------------------------------------------------------*/
     // Optimization 2
     // Threading
-    
-    
-    /* Complex CUDA ---------------------------------------------------------*/
-    // Optimization 3
-    // AtomicAdd()
     
     
     
@@ -89,4 +84,5 @@ int main(int argc, char* argv[])
     
     
     return 0;
+
 }
