@@ -1,0 +1,29 @@
+Input Size: 100000000
+
+--Simple Serial--
+Setting up... 0.000016 seconds
+Computing...  1.639390 seconds
+Pi Estimate: 3.141510
+
+--Advanced Serial--
+Setting up... 0.000000 seconds
+Computing...  1.172312 s
+Pi Estimate: 3.141616
+
+--Simple CUDA--
+Setting up...                       1.263355 seconds
+Allocating device memory...         0.157957 seconds
+Copying data from host to device... 0.048771 seconds
+Launching kernel...                 0.082876 seconds
+Copying data from device to host... 0.015822 seconds
+Verifying...                        0.011825 seconds
+Pi Estimate: 3.141649
+
+--Advanced CUDA--
+Setting up...                       1.176481 seconds
+Allocating device memory...         0.000554 seconds
+Copying data from host to device... 0.032767 seconds
+Launching kernel...                 0.002325 seconds
+Copying data from device to host... 0.000001 seconds
+Verifying...                        0.000064 seconds
+Pi Estimate: 3.141595
